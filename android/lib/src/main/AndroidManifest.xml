@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<manifest android:hardwareAccelerated="true" package="com.marianhello.react" xmlns:android="http://schemas.android.com/apk/res/android">
-    <application android:hardwareAccelerated="true" android:supportsRtl="true">
+<manifest package="com.marianhello.react" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:supportsRtl="true">
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
         <service
             android:name="com.marianhello.bgloc.sync.SyncService"
